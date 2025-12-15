@@ -1,0 +1,29 @@
+# Virtual environment
+venv/
+
+# TensorFlow / training artifacts
+models/
+training/
+exported-model*/
+export_ckpt*/
+pre_trained_model/
+models_caffe/
+
+# Checkpoints & SavedModels
+checkpoint
+ckpt-*
+saved_model/
+*.data-00000-of-00001
+*.index
+
+# TFRecords & samples
+*.tfrecord
+*.jpg
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
