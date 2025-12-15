@@ -70,3 +70,13 @@ python scripts/live_infer.py --video path/to/video.mp4
 ```bash
 python scripts/live_infer.py
 ```
+
+## TensorFlow Object Detection API
+
+This project requires the TensorFlow Models repository.
+
+Clone it separately:
+```bash
+git clone https://github.com/tensorflow/models.git
+```
+Then add `models/research` to your PYTHONPATH.
